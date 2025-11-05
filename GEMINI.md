@@ -365,7 +365,7 @@ end
     *   **Database:** A local SQLite database (`geminicliui_auth.db`) managed by `better-sqlite3` is used for user authentication. Database initialization is handled by `server/database/db.js` and `server/database/init.sql`.
 
 *   **Core Dependencies (from `package.json`):**
-    *   **Frontend:** `react`, `react-dom`, `react-router-dom`, `@google/generative-ai`, `@tailwindcss/typography`, `@uiw/react-codemirror`, `@monaco-editor/react`, `lucide-react`, `framer-motion`, `clsx`, `tailwind-merge`.
+    *   **Frontend:** `react`, `react-dom`, `react-router-dom`, `@google/genai`, `@tailwindcss/typography`, `@uiw/react-codemirror`, `@monaco-editor/react`, `lucide-react`, `framer-motion`, `clsx`, `tailwind-merge`.
     *   **Backend:** `express`, `ws`, `better-sqlite3`, `bcrypt`, `jsonwebtoken`, `node-pty`, `chokidar`, `node-fetch`, `mime-types`, `multer`.
     *   **Development:** `vite`, `@vitejs/plugin-react`, `concurrently`, `eslint`, `tailwindcss`, `@tailwindcss/vite`, `sharp`.
 
